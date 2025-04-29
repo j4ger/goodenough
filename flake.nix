@@ -20,6 +20,7 @@
           cudatoolkit
           cudaPackages.cudnn
           cudaPackages.cuda_cudart
+          ruff
         ];
 
         shellHook = ''
