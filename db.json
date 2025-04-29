@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "name": "“火与钢”",
     "maxHp": 57500,
     "atk": 800,
@@ -23,6 +24,7 @@
     "rangeRadius": 0.8
   },
   {
+    "id": 1,
     "name": "杰斯顿·威廉姆斯",
     "maxHp": 25000,
     "atk": 700,
@@ -46,6 +48,7 @@
     "rangeRadius": 3.0
   },
   {
+    "id": 2,
     "name": "狗Pro",
     "maxHp": 3000,
     "atk": 370,
@@ -69,6 +72,7 @@
     "rangeRadius": 0.8
   },
   {
+    "id": 3,
     "name": "“自在”",
     "maxHp": 40000,
     "atk": 600,
@@ -92,6 +96,7 @@
     "rangeRadius": 3.5
   },
   {
+    "id": 4,
     "name": "依然“狼之主”",
     "maxHp": 50000,
     "atk": 1000,
@@ -115,6 +120,7 @@
     "rangeRadius": 0.8
   },
   {
+    "id": 5,
     "name": "星星魔法师",
     "maxHp": 7000,
     "atk": 380,
@@ -138,6 +144,7 @@
     "rangeRadius": 4.5
   },
   {
+    "id": 6,
     "name": "苦难的具象",
     "maxHp": 30000,
     "atk": 1750,
@@ -161,6 +168,7 @@
     "rangeRadius": 0.8
   },
   {
+    "id": 7,
     "name": "砸人的石头",
     "maxHp": 100000,
     "atk": 3000,
@@ -184,6 +192,7 @@
     "rangeRadius": 0.8
   },
   {
+    "id": 8,
     "name": "“庞贝”",
     "maxHp": 40000,
     "atk": 230,
@@ -207,6 +216,7 @@
     "rangeRadius": 4.5
   },
   {
+    "id": 9,
     "name": "安逸的驮兽",
     "maxHp": 65000,
     "atk": 1800,
@@ -230,6 +240,7 @@
     "rangeRadius": 0.8
   },
   {
+    "id": 10,
     "name": "扩音术师",
     "maxHp": 7000,
     "atk": 600,
@@ -253,6 +264,7 @@
     "rangeRadius": 3.2
   },
   {
+    "id": 11,
     "name": "流鼻涕虫虫",
     "maxHp": 2780,
     "atk": 290,
@@ -276,6 +288,7 @@
     "rangeRadius": 2.75
   },
   {
+    "id": 12,
     "name": "扎人的石头",
     "maxHp": 25000,
     "atk": 400,
@@ -299,6 +312,7 @@
     "rangeRadius": 0.8
   },
   {
+    "id": 13,
     "name": "弧光武士",
     "maxHp": 14000,
     "atk": 800,
@@ -322,6 +336,7 @@
     "rangeRadius": 0.8
   },
   {
+    "id": 14,
     "name": "点灯骑士",
     "maxHp": 7500,
     "atk": 350,
@@ -345,6 +360,7 @@
     "rangeRadius": 3.2
   },
   {
+    "id": 15,
     "name": "重生术师",
     "maxHp": 12000,
     "atk": 420,
@@ -368,6 +384,7 @@
     "rangeRadius": 3.2
   },
   {
+    "id": 16,
     "name": "清醒的墨魉",
     "maxHp": 3000,
     "atk": 290,
@@ -391,6 +408,7 @@
     "rangeRadius": 0.8
   },
   {
+    "id": 17,
     "name": "易爆源石虫",
     "maxHp": 2460,
     "atk": 260,
@@ -414,6 +432,7 @@
     "rangeRadius": 0.8
   },
   {
+    "id": 18,
     "name": "巨大雪球投手",
     "maxHp": 10000,
     "atk": 800,
@@ -437,6 +456,7 @@
     "rangeRadius": 1.0
   },
   {
+    "id": 19,
     "name": "源石的腿脚",
     "maxHp": 11000,
     "atk": 650,
@@ -460,6 +480,7 @@
     "rangeRadius": 0.8
   },
   {
+    "id": 20,
     "name": "大喷蛛",
     "maxHp": 15000,
     "atk": 600,
@@ -483,6 +504,7 @@
     "rangeRadius": 3.0
   },
   {
+    "id": 21,
     "name": "锁链拳手",
     "maxHp": 8000,
     "atk": 300,
@@ -506,6 +528,7 @@
     "rangeRadius": 0.8
   },
   {
+    "id": 22,
     "name": "过气水手",
     "maxHp": 10000,
     "atk": 800,
@@ -529,6 +552,7 @@
     "rangeRadius": 0.8
   },
   {
+    "id": 23,
     "name": "普通的萨卡兹",
     "maxHp": 7500,
     "atk": 600,
@@ -552,6 +576,7 @@
     "rangeRadius": 0.8
   },
   {
+    "id": 24,
     "name": "镜子机关枪",
     "maxHp": 10000,
     "atk": 400,
@@ -575,6 +600,7 @@
     "rangeRadius": 3.0
   },
   {
+    "id": 25,
     "name": "冰手术师",
     "maxHp": 5000,
     "atk": 250,
@@ -598,6 +624,7 @@
     "rangeRadius": 3.2
   },
   {
+    "id": 26,
     "name": "小寄居蟹",
     "maxHp": 6000,
     "atk": 300,
@@ -621,6 +648,7 @@
     "rangeRadius": 3.4
   },
   {
+    "id": 27,
     "name": "迟钝的持盾者",
     "maxHp": 6000,
     "atk": 600,
@@ -644,6 +672,7 @@
     "rangeRadius": 0.8
   },
   {
+    "id": 28,
     "name": "食腐野兽",
     "maxHp": 12000,
     "atk": 550,
@@ -667,6 +696,7 @@
     "rangeRadius": 0.8
   },
   {
+    "id": 29,
     "name": "硕鼷",
     "maxHp": 19000,
     "atk": 700,
@@ -690,6 +720,7 @@
     "rangeRadius": 0.8
   },
   {
+    "id": 30,
     "name": "奔跑吧！躯壳！",
     "maxHp": 4000,
     "atk": 400,
@@ -713,6 +744,7 @@
     "rangeRadius": 0.8
   },
   {
+    "id": 31,
     "name": "窃笑鳄鱼",
     "maxHp": 5500,
     "atk": 320,
@@ -736,6 +768,7 @@
     "rangeRadius": 0.8
   },
   {
+    "id": 32,
     "name": "保鲜膜骑士",
     "maxHp": 2800,
     "atk": 300,
@@ -759,6 +792,7 @@
     "rangeRadius": 3.0
   },
   {
+    "id": 33,
     "name": "失业萨克斯手",
     "maxHp": 17500,
     "atk": 800,

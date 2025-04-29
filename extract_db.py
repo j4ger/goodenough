@@ -32,13 +32,14 @@ def extract_enemy_data(database_path, enemies_list_path, output_path):
     # 3. 筛选并提取关键属性
     extracted_data = []
     unmatched_enemies = []
-    for enemy_name in participating_enemies:
+    for index, enemy_name in enumerate(participating_enemies):
         if enemy_name in enemy_name_to_data:
             enemy_data = enemy_name_to_data[enemy_name]
             attributes = enemy_data['attributes']
 
             # 提取关键属性，并添加存在性检查
             extracted_enemy = {
+                'id': index,
                 'name': enemy_name,
                 'maxHp': attributes.get('maxHp', {}).get('m_value', None),
                 'atk': attributes.get('atk', {}).get('m_value', None),
