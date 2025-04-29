@@ -12,3 +12,6 @@ wheels/
 
 # direnv
 .direnv/
+
+# yolo
+yoloe-11l-seg.pt
