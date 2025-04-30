@@ -21,18 +21,21 @@
           cudaPackages.cudnn
           cudaPackages.cuda_cudart
           ruff
-        ];
+      ];
 
         shellHook = ''
           export CUDA_PATH=${pkgs.cudatoolkit}
 
           # Add necessary paths for dynamic linking
           export LD_LIBRARY_PATH=${
-            pkgs.lib.makeLibraryPath [
+            pkgs.lib.makeLibraryPath (with pkgs; [
               "/run/opengl-driver" # Needed to find libGL.so
-              pkgs.cudatoolkit
-              pkgs.cudaPackages.cudnn
-            ]
+              cudatoolkit
+              cudaPackages.cudnn
+              libGLU
+              libGL
+              glib
+            ])
           }:$LD_LIBRARY_PATH
 
           # Set LIBRARY_PATH to help the linker find the CUDA static libraries

@@ -1,3 +1,12 @@
+import scrcpy
+from adbutils import adb
+from rich.console import Console
+from textual_image.renderable import Image as SImage
+import cv2
+import time
+from PIL import Image
+import easyocr
+
 HEIGHT = 1680
 WIDTH = 1440
 
@@ -24,9 +33,22 @@ RESULT_LABEL = ((4, 738), (4 + 382, 738 + 142))
 RESULT_LEFT_WIN_LABEL = "win"
 RESULT_RIGHT_WIN_LABEL = "lose"
 
+device = scrcpy.Client(device=adb.device_list()[0])
+console = Console()
+ocr = easyocr.Reader(["ch_sim", "en"])
+
 
 def main():
-    print("Hello from goodenough!")
+    device.start(threaded=True)
+    print("resolution: ", device.resolution)
+    while True:
+        if device.last_frame is not None:
+            console.print(
+                SImage(
+                    Image.fromarray(cv2.cvtColor(device.last_frame, cv2.COLOR_BGR2RGB))
+                )
+            )
+        time.sleep(0.5)
 
 
 if __name__ == "__main__":
