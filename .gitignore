@@ -15,3 +15,5 @@ wheels/
 
 # yolo
 yoloe-11l-seg.pt
+yolo11*.pt
+runs/
