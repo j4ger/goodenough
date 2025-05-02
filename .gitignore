@@ -8,6 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# AI tools
 .aider*
 
 # direnv
@@ -17,3 +19,6 @@ wheels/
 yoloe-11l-seg.pt
 yolo11*.pt
 runs/
+
+# jupyter
+.ipynb_checkpoints

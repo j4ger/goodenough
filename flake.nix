@@ -21,6 +21,7 @@
           cudaPackages.cudnn
           cudaPackages.cuda_cudart
           ruff
+          tesseract
       ];
 
         shellHook = ''
@@ -44,6 +45,8 @@
               pkgs.cudatoolkit
             ]
           }:$LIBRARY_PATH
+
+          export SSL_CERT_FILE=${pkgs.cacert}/etc/ssl/certs/ca-bundle.crt
         '';
       };
     };
