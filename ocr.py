@@ -1,5 +1,3 @@
-from PIL import Image, ImageOps
-from aux import imgshow
 import cv2 as cv
 import numpy as np
 import pytesseract
@@ -19,8 +17,8 @@ END_LABEL_CONTENT = "返回主页"
 HOME_LABEL = (1471, 1318, 1471 + 134, 1318 + 48)
 HOME_LABEL_CONTENT = "加入赛事"
 
-MODE_LABEL = (440, 404, 440 + 202, 404 + 58)
-MODE_LABEL_CONTENT = "选择赛事"
+MODE_LABEL = (107, 896, 107 + 95, 896 + 35)
+MODE_LABEL_CONTENT = "猜您喜欢"
 
 RESULT_LABEL = (4, 738, 4 + 382, 738 + 142)
 RESULT_LABEL_CONTENT = "WINLOSE"
@@ -94,10 +92,9 @@ def test_mode_select(image):
     text = crop_and_ocr(
         image,
         MODE_LABEL,
-        threshold=130,
-        oem=1,
+        threshold=195,
+        oem=0,
         chn=True,
-        invert=True,
         allowlist=MODE_LABEL_CONTENT,
     )
     return text == MODE_LABEL_CONTENT

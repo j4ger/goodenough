@@ -8,7 +8,7 @@ dependencies = [
     "adbutils>=1.2.15",
     "jupyter>=1.1.1",
     "numpy>=2.2.5",
-    "opencv-python",
+    "pathlib>=1.0.1",
     "pillow>=11.2.1",
     "pytesseract>=0.3.13",
     "requests>=2.32.3",
@@ -16,4 +16,5 @@ dependencies = [
     "scrcpy-client>=0.4.7",
     "textual-image>=0.8.2",
     "ultralytics>=8.3.120",
+    "xmltodict>=0.14.2",
 ]
