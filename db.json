@@ -1201,6 +1201,30 @@
   },
   {
     "id": 50,
+    "name": "自爆冰虫",
+    "maxHp": 3250,
+    "atk": 300,
+    "def": 0,
+    "magicResistance": 0.0,
+    "blockCnt": 0,
+    "moveSpeed": 1.0,
+    "attackSpeed": 100.0,
+    "baseAttackTime": 1.7,
+    "respawnTime": 0,
+    "hpRecoveryPerSec": 0.0,
+    "tauntLevel": 0,
+    "epDamageResistance": 0.0,
+    "epResistance": 0.0,
+    "damageHitratePhysical": 0.0,
+    "damageHitrateMagical": 0.0,
+    "stunImmune": false,
+    "silenceImmune": false,
+    "sleepImmune": false,
+    "frozenImmune": false,
+    "rangeRadius": 0.8
+  },
+  {
+    "id": 51,
     "name": "“大斧”",
     "maxHp": 18000,
     "atk": 1500,
@@ -1224,7 +1248,7 @@
     "rangeRadius": 0.8
   },
   {
-    "id": 51,
+    "id": 52,
     "name": "假酒海盗",
     "maxHp": 10500,
     "atk": 1000,
@@ -1248,7 +1272,7 @@
     "rangeRadius": 0.8
   },
   {
-    "id": 52,
+    "id": 53,
     "name": "榴弹佣兵",
     "maxHp": 3200,
     "atk": 500,
@@ -1272,7 +1296,7 @@
     "rangeRadius": 1.0
   },
   {
-    "id": 53,
+    "id": 54,
     "name": "机鳄战甲",
     "maxHp": 9500,
     "atk": 750,
@@ -1296,7 +1320,7 @@
     "rangeRadius": 0.8
   },
   {
-    "id": 54,
+    "id": 55,
     "name": "玻璃球打手",
     "maxHp": 4000,
     "atk": 800,
