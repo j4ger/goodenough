@@ -19,8 +19,8 @@ END_LABEL_CONTENT = "返回主页"
 HOME_LABEL = (1471, 1318, 1471 + 134, 1318 + 48)
 HOME_LABEL_CONTENT = "加入赛事"
 
-MODE_LABEL = (1518, 1116, 1518 + 73, 1116 + 42)
-MODE_LABEL_CONTENT = "选择"
+MODE_LABEL = (440, 404, 440 + 202, 404 + 58)
+MODE_LABEL_CONTENT = "选择赛事"
 
 RESULT_LABEL = (4, 738, 4 + 382, 738 + 142)
 RESULT_LABEL_CONTENT = "WINLOSE"
@@ -94,9 +94,10 @@ def test_mode_select(image):
     text = crop_and_ocr(
         image,
         MODE_LABEL,
-        threshold=100,
+        threshold=130,
         oem=1,
         chn=True,
+        invert=True,
         allowlist=MODE_LABEL_CONTENT,
     )
     return text == MODE_LABEL_CONTENT

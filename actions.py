@@ -21,7 +21,7 @@ BUTTON_JOIN = (1405, 1279)
 BUTTON_MODE_SELECT = (1118, 1150)
 BUTTON_START = (1562, 1156)
 
-INTERVAL = 0.8
+INTERVAL = 0.4
 
 
 class State(Enum):
@@ -64,7 +64,7 @@ def keep_in_match(frame):
         print("[state] mode select")
         click(BUTTON_MODE_SELECT)
         print("[action] selecting mode")
-        time.sleep(0.1)
+        time.sleep(0.3)
         click(BUTTON_START)
         print("[action] starting game")
         return State.MODE_SELECT
@@ -81,9 +81,12 @@ def event_loop():
     exit = False
     game_frame = frame
     while not exit:
+        if nextval > 7500:
+            break
         frame = Image.fromarray(cv.cvtColor(device.last_frame, cv.COLOR_BGR2RGB))
         new_state = keep_in_match(frame)
         if state != State.PREGAME and new_state == State.PREGAME:
+            print("[game] new match")
             game_frame = frame
         if state == State.INGAME:
             if new_state == State.LEFT_WIN:

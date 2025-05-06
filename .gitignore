@@ -22,3 +22,8 @@ runs/
 
 # jupyter
 .ipynb_checkpoints
+
+# raw images
+assets/raw/
+assets/replays/
+assets/val/

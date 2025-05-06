@@ -24,6 +24,11 @@
           tesseract
       ];
 
+        nativeBuildInputs = with pkgs; [
+          libsForQt5.wrapQtAppsHook
+          makeWrapper
+        ];
+
         shellHook = ''
           export CUDA_PATH=${pkgs.cudatoolkit}
 
